@@ -15,15 +15,18 @@ Examples:
 -----------------------------------------------------------------------
 1) 
 IPfilterDL.exe
+ 
 Two default sources will be downloaded
  
 -----------------------------------------------------------------------
 2)
 IPfilterDL.exe - myfilter.dat
+ 
 Two default sources will be downloaded, after that local file myfilter.dat will be added. 
 Please note: local filter should not be an archive, but normal filter!
 
 If local file will be presented with a path, for instance:
+ 
 IPfilterDL.exe - "d:\My Folder\myfilter.dat"
 and this path is not the same folder where IPfilterDL.exe was started - the initial myfilter.dat will not be changed. If myfilter.dat is in the same folder with IPfilterDL.exe - it will be ranamed into myfilter.dat.some_numbers.bak to avoid possible conflicts.
  
@@ -37,6 +40,7 @@ Please note: the remote filter should be an archive, not an unpacked filter!
 -----------------------------------------------------------------------
 4)
 Combinations are also possible:
+ 
 IPfilterDL.exe + https://mydomain.com/mypath/myfilter.gzip - myfilter.dat
 IPfilterDL.exe - yourfilter.dat - myfilter.dat
 IPfilterDL.exe + https://mydomain.com/mypath/myfilter.gzip + https://yourdomain.com/yourpath/yourfilter.rar
