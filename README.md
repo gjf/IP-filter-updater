@@ -52,6 +52,7 @@ Please note: only one or two (max) additional sources could be added in command 
 -----------------------------------------------------------------------
 
 Please note: now the utility works with IP filters in dat format. They should looks like the following:
+ 
 001.002.004.000 - 001.002.004.255 , 000 , China Internet Information Center (CNNIC)
 001.002.008.000 - 001.002.008.255 , 000 , China Internet Information Center (CNNIC)
 001.009.096.105 - 001.009.096.105 , 000 , Botnet on Telekom Malaysia
@@ -59,6 +60,7 @@ Please note: now the utility works with IP filters in dat format. They should lo
 
  
 If your filter looks like:
+ 
 China Internet Information Center (CNNIC):1.2.4.0-1.2.4.255
 China Internet Information Center (CNNIC):1.2.8.0-1.2.8.255
 Botnet on Telekom Malaysia:1.9.96.105-1.9.96.105
