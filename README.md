@@ -11,6 +11,7 @@ IPfilterDL.exe <key1> <path1> <key2> <path2>, where:
 <key>: if it is "+" symbol (without quotes) - it means the appropriate <path> is URL, if it is "-" symbol (without quotes) - it means the appropriate <path> is path to local file.
 
 Examples:
+ 
 -----------------------------------------------------------------------
 1) 
 IPfilterDL.exe
@@ -57,7 +58,7 @@ China Internet Information Center (CNNIC):1.2.8.0-1.2.8.255
 Botnet on Telekom Malaysia:1.9.96.105-1.9.96.105
 Botnet on Telekom Malaysia:1.9.102.251-1.9.102.251
 
-- it is p2p format and it is not supported. If you will try to put such file in command line parameters - you will find a file named "your.file" in the same folder with IPFilterDL.exe. It means the utility found unsupported р2р format and ignored it during final ipfilter.dat compilation.
+it is p2p format and it is not supported. If you will try to put such file in command line parameters - you will find a file named "your.file" in the same folder with IPFilterDL.exe. It means the utility found unsupported р2р format and ignored it during final ipfilter.dat compilation.
 (Normally all IP filter sources allow to choose the format to download - so please choose the correct dat format)
  
 After all files were downloaded the utility unpacks archives, combine all data in a whole single ipfilter.dat and cleans it from comments and duplicates. The file is been sorted and you will find a resulted compact ipfilter.dat. The path to this file can be added to your torrent client.
