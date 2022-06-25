@@ -3,6 +3,7 @@ IP filter updater for torrent downloaders
 
 Now this tool downloads filters from the following URLs by default:
 https://github.com/DavidMoore/ipfilter/releases/download/lists/ipfilter.dat.gz
+
 http://upd.emule-security.org/ipfilter.zip
 
 If you want to add your own filters - you can add them in command line using local files or URLS using the following syntax:
@@ -14,6 +15,7 @@ Examples:
 1) 
 IPfilterDL.exe
 Two default sources will be downloaded
+ 
 -----------------------------------------------------------------------
 2)
 IPfilterDL.exe - myfilter.dat
