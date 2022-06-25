@@ -61,8 +61,7 @@ Please note: now the utility works with IP filters in dat format. They should lo
  
 001.009.102.251 - 001.009.102.251 , 000 , Botnet on Telekom Malaysia
 
- 
- 
+
 If your filter looks like:
  
 China Internet Information Center (CNNIC):1.2.4.0-1.2.4.255
