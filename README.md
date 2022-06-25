@@ -25,12 +25,14 @@ Please note: local filter should not be an archive, but normal filter!
 If local file will be presented with a path, for instance:
 IPfilterDL.exe - "d:\My Folder\myfilter.dat"
 and this path is not the same folder where IPfilterDL.exe was started - the initial myfilter.dat will not be changed. If myfilter.dat is in the same folder with IPfilterDL.exe - it will be ranamed into myfilter.dat.some_numbers.bak to avoid possible conflicts.
+ 
 -----------------------------------------------------------------------
 3)
 IPfilterDL.exe + https://mydomain.com/mypath/myfilter.gzip
 
 Two default sources will be downloaded, after that the user's filter will be downloaded from https://mydomain.com/mypath/myfilter.gzip.
 Please note: the remote filter should be an archive, not an unpacked filter!
+ 
 -----------------------------------------------------------------------
 4)
 Combinations are also possible:
@@ -39,6 +41,7 @@ IPfilterDL.exe - yourfilter.dat - myfilter.dat
 IPfilterDL.exe + https://mydomain.com/mypath/myfilter.gzip + https://yourdomain.com/yourpath/yourfilter.rar
 
 Please note: only one or two (max) additional sources could be added in command line at the moment.
+ 
 -----------------------------------------------------------------------
 
 Please note: now the utility works with IP filters in dat format. They should looks like the following:
