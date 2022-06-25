@@ -42,7 +42,9 @@ Please note: the remote filter should be an archive, not an unpacked filter!
 Combinations are also possible:
  
 IPfilterDL.exe + https://mydomain.com/mypath/myfilter.gzip - myfilter.dat
+ 
 IPfilterDL.exe - yourfilter.dat - myfilter.dat
+ 
 IPfilterDL.exe + https://mydomain.com/mypath/myfilter.gzip + https://yourdomain.com/yourpath/yourfilter.rar
 
 Please note: only one or two (max) additional sources could be added in command line at the moment.
