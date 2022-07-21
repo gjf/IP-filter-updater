@@ -4,12 +4,12 @@ REM HasVersionInfo: Yes
 REM Companyname: HSH
 REM Productname: IP filter list downloader for torrent
 REM Filedescription: DLs IP filter as ipfilter.dat file
-REM Copyrights: © Fixxxer
+REM Copyrights: Â© Fixxxer
 REM Trademarks: 
 REM Originalname: IPfilterDL.exe
 REM Comments: https://forum.ru-board.com/topic.cgi?forum=5&topic=50835&start=700#3
-REM Productversion:  4. 0. 1. 0
-REM Fileversion:  4. 0. 1. 0
+REM Productversion:  4. 0. 1. 1
+REM Fileversion:  4. 0. 1. 1
 REM Internalname: IPfilterDL.exe
 REM ExeType: ghost
 REM Architecture: x86
